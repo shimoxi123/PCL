@@ -6,9 +6,9 @@ jobs:
   build:
     name: Build
     runs-on: windows-latest
-    strategy:  
-       matrix:  
-         configuration: [Debug, Release]
+    strategy:
+       matrix:
+         configuration: [Release]
 
     steps:
 
